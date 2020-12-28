@@ -13,7 +13,8 @@ apt-get install -y \
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 ## Install Docker CE
-curl -fsSL https://get.docker.com | bash
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 
 ## Update to the latest PowerShell
 curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash
