@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Codespaces .NET 5.0",
+  "extensions": ["ms-azuretools.vscode-docker"],
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [5000, 5001, 7071],
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "files.exclude": {
+      "**/LICENSE": true
+    }
+  }
+}
