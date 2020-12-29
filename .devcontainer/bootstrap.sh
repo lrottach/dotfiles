@@ -15,13 +15,6 @@ apt-get install -y \
 ## Instsall nvm
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
-## Install Docker CE
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-
-## Update to the latest PowerShell
-curl -sSL https://raw.githubusercontent.com/PowerShell/PowerShell/master/tools/install-powershell.sh | bash
-
 ## Setup and install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cp -R /root/.oh-my-zsh /home/$USERNAME
