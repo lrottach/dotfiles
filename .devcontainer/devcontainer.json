@@ -1,5 +1,5 @@
 {
-  "name": "GitHub Codespaces .NET 5.0",
+  "name": "GitHub Codespaces Draft",
   "extensions": ["ms-azuretools.vscode-docker"],
   "dockerFile": "Dockerfile",
   "forwardPorts": [5000, 5001, 7071],

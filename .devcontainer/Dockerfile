@@ -1,5 +1,5 @@
 # Debian 10 including .NET 5.0 SDK
-FROM mcr.microsoft.com/dotnet/sdk
+FROM ubuntu:21.04
 
 WORKDIR /home/
 
