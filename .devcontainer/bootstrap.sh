@@ -8,7 +8,9 @@ apt-get install -y \
     sudo \
     zsh \
     wget \
-    apt-utils
+    apt-utils \
+    lsb-release \
+    software-properties-common
 
 ## Instsall nvm
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
