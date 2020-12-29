@@ -8,8 +8,8 @@ apt-get install -y \
     sudo \
     zsh \
     wget \
-    apt-utils \
-    lsb-release \
+    apt-transport-https \
+    ca-certificates
     software-properties-common
 
 ## Instsall nvm
