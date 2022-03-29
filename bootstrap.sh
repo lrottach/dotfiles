@@ -22,3 +22,4 @@ zshrc() {
 # sudo fc-cache -f -v
 
 # Execute Functions
+zshrc
