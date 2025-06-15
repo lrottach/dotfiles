@@ -1,0 +1,14 @@
+shell-integration = fish
+
+keybind = shift+enter=text:\n
+theme = Dracula+
+font-size = 13
+font-family = JetBrainsMono Nerd Font
+mouse-hide-while-typing = true
+window-decoration = true
+
+background-blur-radius = 20
+background-opacity = 0.9
+
+# Keybindings
+keybind = super+shift+h=goto_split:right
