@@ -4,3 +4,39 @@
 # Please adapt and uncomment the following lines:
 #	name = Lukas Rottach
 #	email = eadm-lukas.rottach@kapozhch.onmicrosoft.com
+
+[core]
+	editor = nvim
+
+[alias]
+    # Basic shortcuts
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    cm = commit -m
+    ca = commit -am
+    
+    # Branch management
+    cob = checkout -b
+    bd = branch -d
+    bdf = branch -D
+    
+    # Logging
+    lg = log --oneline --graph --decorate --all
+    lgs = log --oneline --graph --decorate --all --stat
+    
+    # Pushing/pulling
+    ps = push
+    pso = push origin
+    pl = pull
+    plo = pull origin
+    
+    # Useful for IaC workflows
+    unstage = reset HEAD --
+    undo = reset --soft HEAD^
+    amend = commit --amend --no-edit
+    
+    # Show what's changed
+    changed = show --pretty="format:" --name-only
+    filelog = log -u
