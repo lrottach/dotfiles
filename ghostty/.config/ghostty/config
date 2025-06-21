@@ -8,7 +8,7 @@ mouse-hide-while-typing = true
 window-decoration = true
 
 background-blur-radius = 20
-background-opacity = 0.9
+background-opacity = 1.0
 
 # Keybindings
 keybind = super+shift+h=goto_split:right
