@@ -1,0 +1,238 @@
+/* VS Code Custom CSS - MonoLisa Font for UI Elements (Text Only) */
+
+/* Define the font */
+@font-face {
+    font-family: 'MonoLisa';
+    src: local('MonoLisa'), local('MonoLisa Regular');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base font for workbench - removed wildcard to preserve icons */
+.monaco-workbench {
+    font-family: 'MonoLisa', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Window title */
+.window-title {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Menu bar */
+.menubar-menu-button > .menubar-menu-title,
+.monaco-menu .monaco-action-bar.vertical .action-label {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Activity bar - text only */
+.activitybar .monaco-action-bar .badge,
+.activitybar .monaco-action-bar .action-label:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Side bar - text elements only */
+.sidebar .composite.title > .title-label > *,
+.sidebar .composite.title > .title-label,
+.sidebar .pane-header .title,
+.monaco-list-row:not(.focused) .monaco-tl-contents,
+.monaco-tl-contents,
+.explorer-folders-view .monaco-list-row .monaco-icon-label-container > .monaco-icon-name-container > .label-name,
+.monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name,
+.monaco-icon-label-description-container .label-description {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* File explorer specific - text only */
+.explorer-viewlet .explorer-item .monaco-icon-label-container > .monaco-icon-name-container > .label-name,
+.explorer-viewlet .explorer-folders-view .monaco-list-row .explorer-item,
+.explorer-viewlet .explorer-item .monaco-icon-label-description-container .label-description {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Tabs - text only */
+.tabs-container .tab .tab-label,
+.tabs-container .tab .monaco-icon-label-container > .monaco-icon-name-container > .label-name,
+.tabs-breadcrumbs .monaco-breadcrumb-item {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Breadcrumbs */
+.monaco-breadcrumbs .monaco-breadcrumb-item {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Status bar - text only */
+.statusbar-item > :not(.codicon),
+.statusbar-entry > :not(.codicon),
+.statusbar-entry > a:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Panel (Terminal, Output, Problems, etc.) - text only */
+.panel .composite.title > .title-label,
+.panel .pane-header .title,
+.panel .monaco-action-bar:not(.monaco-toolbar) .action-label:not(.codicon),
+.monaco-panel-view .pane > .pane-header > .title {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Terminal tabs */
+.terminal-tabs-list .terminal-tabs-entry .monaco-icon-label-container > .monaco-icon-name-container > .label-name {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Quick input / Command palette */
+.quick-input-widget .quick-input-box,
+.quick-input-widget .quick-input-and-message,
+.quick-input-list .quick-input-list-label,
+.quick-input-list .quick-input-list-entry .label-name,
+.quick-input-list .quick-input-list-entry.quick-input-list-separator-border > .quick-input-list-label,
+.monaco-inputbox .input,
+.monaco-inputbox .wrapper > .input {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Notifications - text only */
+.notifications-toasts .monaco-list-row .notification-list-item-message,
+.notifications-toasts .monaco-list-row .notification-list-item-title,
+.notification-toast .notification-toast-message {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Settings UI */
+.settings-editor > .settings-body .settings-tree-container .setting-item-contents .setting-item-title,
+.settings-editor > .settings-body .settings-tree-container .setting-item-contents .setting-item-description,
+.settings-group-title-label,
+.settings-editor > .settings-header > .settings-header-controls,
+.settings-editor > .settings-header .settings-search-container .settings-search-input {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Extension view - text only */
+.extensions-viewlet .monaco-list-row .extension-list-item > .details > .header > .name,
+.extensions-viewlet .monaco-list-row .extension-list-item > .details > .header > .identifier,
+.extensions-viewlet .monaco-list-row .extension-list-item > .details > .footer > .author,
+.extension-editor .header > .details > .title > .name {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Search view - text only */
+.search-view .search-widget .search-container .monaco-inputbox .wrapper > .input,
+.search-view .search-widget .replace-container .monaco-inputbox .wrapper > .input,
+.search-view .results .monaco-list-row .match-string > span,
+.search-view .results .monaco-list-row .search-result .label-name {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Source control view - text only */
+.scm-view .monaco-list-row .resource > .name > .monaco-icon-label > .monaco-icon-label-container > .monaco-icon-name-container > .label-name,
+.scm-view .scm-provider > .body > .count,
+.scm-view .monaco-inputbox .input {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Debug view - text only */
+.debug-viewlet .debug-call-stack .monaco-list-row .label-name,
+.debug-viewlet .monaco-inputbox .input,
+.debug-toolbar .monaco-action-bar .action-label:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Context menus - text only */
+.monaco-menu .monaco-action-bar.vertical .action-menu-item .action-label {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Welcome page */
+.welcome-page .welcomePage .commands li button > span,
+.welcome-page .welcomePage h1,
+.welcome-page .welcomePage h2,
+.welcome-page .welcomePage h3,
+.welcome-page .welcomePage p {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Hover widgets - text only */
+.monaco-hover .hover-contents p,
+.monaco-hover .hover-contents code,
+.monaco-hover .hover-contents .hover-row .label-name {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Suggest widget (autocomplete) - text only */
+.suggest-widget .monaco-list-row .label-name,
+.suggest-widget .details > .monaco-scrollable-element > .body > .type,
+.suggest-widget .details > .monaco-scrollable-element > .body > .docs {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Find widget - text only */
+.find-widget .monaco-inputbox .input,
+.find-widget .matchesCount,
+.find-widget .button:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Peek view - text only */
+.peekview-widget .head .peekview-title .filename,
+.peekview-widget .head .peekview-title .dirname,
+.peekview-widget .peekview-actions .monaco-action-bar .action-label:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Text inputs */
+input[type="text"]:not(.codicon),
+textarea:not(.codicon),
+.monaco-workbench input:not(.codicon),
+.monaco-workbench textarea:not(.codicon) {
+    font-family: 'MonoLisa', sans-serif !important;
+}
+
+/* Preserve icon fonts */
+.codicon,
+.codicon-events,
+.monaco-codicon,
+[class*="codicon-"]:before,
+[class*="monaco-icon"]:before,
+.icon,
+.monaco-icon-label:before,
+.monaco-icon-label-container > .monaco-icon-label:before,
+.file-icon:before,
+.folder-icon:before,
+.rootfolder-icon:before,
+.explorer-item .monaco-icon-label:before {
+    font-family: "codicon" !important;
+}
+
+/* Preserve other icon fonts */
+.octicon,
+.fa,
+.fas,
+.far,
+.fab {
+    font-family: inherit !important;
+}
+
+/* Optional: Adjust font sizes if needed */
+/* 
+.monaco-workbench {
+    font-size: 13px !important;
+}
+*/
+
+/* Optional: If you have different MonoLisa weights installed */
+/*
+@font-face {
+    font-family: 'MonoLisa';
+    src: local('MonoLisa Bold'), local('MonoLisa-Bold');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonoLisa';
+    src: local('MonoLisa Light'), local('MonoLisa-Light');
+    font-weight: 300;
+    font-style: normal;
+}
+*/
