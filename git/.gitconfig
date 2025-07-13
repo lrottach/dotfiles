@@ -40,3 +40,5 @@
     # Show what's changed
     changed = show --pretty="format:" --name-only
     filelog = log -u
+[pull]
+	rebase = true
