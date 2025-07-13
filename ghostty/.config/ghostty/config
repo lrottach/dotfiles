@@ -1,7 +1,7 @@
 shell-integration = fish
 
 keybind = shift+enter=text:\n
-theme = Dracula+
+theme = Pro
 font-size = 13
 font-family = JetBrainsMono Nerd Font
 mouse-hide-while-typing = true
