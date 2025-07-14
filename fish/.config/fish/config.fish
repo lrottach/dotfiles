@@ -3,3 +3,5 @@ if status is-interactive
 	atuin init fish | source
 	starship init fish | source
 end
+
+alias claude="/Users/lukas.rottach/.claude/local/claude"
