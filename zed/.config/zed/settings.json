@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "restore_on_startup": "last_workspace",
+  "scrollbar": {
+    "show": "never"
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-thinking"
+    }
+  },
   "git_panel": {
     "dock": "right"
   },
@@ -20,9 +33,11 @@
   "tab_bar": {
     "show": false
   },
+  "hide_mouse": "on_typing",
   "terminal": {
+    "dock": "right",
     "font_family": "JetBrainsMono Nerd Font Mono",
-    "font_size": 12
+    "font_size": 13
   },
   "relative_line_numbers": true,
   "vim_mode": true,
@@ -35,6 +50,6 @@
   "theme": {
     "mode": "system",
     "light": "Dracula Pro (Alucard)",
-    "dark": "One Dark"
+    "dark": "Dracula Pro"
   }
 }
