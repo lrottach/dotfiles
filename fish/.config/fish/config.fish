@@ -5,4 +5,4 @@ if status is-interactive
     zoxide init fish | source
 end
 
-alias claude="/Users/lukas.rottach/.claude/local/claude"
+# alias claude="/Users/lukas.rottach/.claude/local/claude"

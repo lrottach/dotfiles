@@ -15,7 +15,6 @@
     "show": "never"
   },
   "agent": {
-    "dock": "left",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-thinking"
@@ -40,7 +39,7 @@
     "font_family": "JetBrainsMono Nerd Font Mono",
     "font_size": 13
   },
-  "relative_line_numbers": "enabled",
+  "relative_line_numbers": true,
   "vim_mode": true,
   "ui_font_size": 14,
   "buffer_font_size": 13,
@@ -50,7 +49,7 @@
   "buffer_font_fallbacks": ["JetBrainsMono Nerd Font Mono"],
   "theme": {
     "mode": "system",
-    "light": "Dracula Pro",
+    "light": "Dracula Pro (Alucard)",
     "dark": "Dracula Pro"
   }
 }
