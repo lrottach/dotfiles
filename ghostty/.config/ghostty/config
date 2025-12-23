@@ -1,7 +1,7 @@
 shell-integration = fish
 
 keybind = shift+enter=text:\n
-theme = Pro
+theme = dark:pro,light:alucard
 font-size = 13
 font-family = JetBrainsMono Nerd Font
 mouse-hide-while-typing = true
