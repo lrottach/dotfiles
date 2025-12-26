@@ -9,56 +9,56 @@
 {
   "agent_servers": {
     "claude": {
-      "default_model": "sonnet"
-    }
+      "default_model": "sonnet",
+    },
   },
-  features: {
-    "edit_prediction_provider": "copilot"
+  "features": {
+    "edit_prediction_provider": "copilot",
   },
   "restore_on_startup": "last_workspace",
   "scrollbar": {
-    "show": "never"
+    "show": "never",
   },
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "agent": {
     "dock": "left",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4-thinking"
-    }
+      "model": "claude-sonnet-4-thinking",
+    },
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "tab_bar": {
-    "show": false
+    "show": false,
   },
   "hide_mouse": "on_typing",
   "terminal": {
     "dock": "right",
-    "font_family": "JetBrainsMono Nerd Font Mono",
-    "font_size": 13
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_size": 13,
   },
   "relative_line_numbers": "enabled",
   "vim_mode": true,
   "ui_font_size": 14,
   "buffer_font_size": 13,
   "ui_font_family": "MonoLisa",
-  "ui_font_fallbacks": ["JetBrainsMono Nerd Font Mono"],
+  "ui_font_fallbacks": ["JetBrainsMono Nerd Font"],
   "buffer_font_family": "MonoLisa",
-  "buffer_font_fallbacks": ["JetBrainsMono Nerd Font Mono"],
+  "buffer_font_fallbacks": ["JetBrainsMono Nerd Font"],
   "theme": {
     "mode": "system",
     "light": "Dracula Pro (Alucard)",
-    "dark": "Dracula Pro"
-  }
+    "dark": "Dracula Pro",
+  },
 }
