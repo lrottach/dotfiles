@@ -12,6 +12,9 @@
       "default_model": "sonnet"
     }
   },
+  features: {
+    "edit_prediction_provider": "copilot"
+  },
   "restore_on_startup": "last_workspace",
   "scrollbar": {
     "show": "never"
