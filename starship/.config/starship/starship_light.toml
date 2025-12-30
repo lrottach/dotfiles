@@ -1,4 +1,4 @@
-palette = "dracula"
+palette = "alucard"
 
 [aws]
 style = "bold orange"
@@ -26,16 +26,16 @@ style = "bold purple"
 format = "[$user]($style) on "
 style_user = "bold cyan"
 
-# Define Dracula color palette
-[palettes.dracula]
-background = "#282a36"
-current_line = "#44475a"
-foreground = "#f8f8f2"
-comment = "#6272a4"
-cyan = "#8be9fd"
-green = "#14710a"
-orange = "#ffb86c"
-pink = "#ff79c6"
-purple = "#bd93f9"
-red = "#ff5555"
-yellow = "#f1fa8c"
+# Define Dracula PRO Alucard color palette (light theme)
+[palettes.alucard]
+background = "#F5F5F5"
+current_line = "#CFCFDE"
+foreground = "#1F1F1F"
+comment = "#635D97"
+cyan = "#047FB4"
+green = "#198D0C"
+orange = "#A34D14"
+pink = "#BF185A"
+purple = "#7862D0"
+red = "#D74C3D"
+yellow = "#9E841A"

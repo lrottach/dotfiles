@@ -1,0 +1,30 @@
+fish_color_autosuggestion 7970A9
+fish_color_cancel F8F8F2
+fish_color_command 9580FF
+fish_color_comment 7970A9
+fish_color_cwd 8AFF80
+fish_color_cwd_root FF9580
+fish_color_end FF80BF
+fish_color_error FF9580
+fish_color_escape FF80BF
+fish_color_history_current --bold
+fish_color_host 80FFEA
+fish_color_host_remote FFFF80
+fish_color_keyword 9580FF
+fish_color_normal F8F8F2
+fish_color_operator FFCA80
+fish_color_option 80FFEA
+fish_color_param F8F8F2
+fish_color_quote FFFF80
+fish_color_redirection 80FFEA
+fish_color_search_match --background=454158
+fish_color_selection --background=454158
+fish_color_status FF9580
+fish_color_user 8AFF80
+fish_color_valid_path --underline
+fish_pager_color_background
+fish_pager_color_completion F8F8F2
+fish_pager_color_description 7970A9
+fish_pager_color_prefix 9580FF --underline
+fish_pager_color_progress F8F8F2 --background=454158
+fish_pager_color_selected_background --background=454158
