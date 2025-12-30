@@ -13,4 +13,7 @@ if status is-interactive
 
     starship init fish | source
     zoxide init fish | source
+
+    # Show system info
+    fastfetch
 end
