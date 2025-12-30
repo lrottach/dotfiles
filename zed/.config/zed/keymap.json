@@ -10,12 +10,53 @@
     "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
-    }
+    },
   },
   {
     "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       // "j k": "vim::SwitchToNormalMode"
-    }
-  }
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-t": "terminal_panel::Toggle",
+    },
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "cmd-e": null,
+    },
+  },
+  {
+    "bindings": {
+      "cmd-e": "editor::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-k cmd-c": "agent::ToggleFocus",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-k cmd-l": null,
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-k cmd-e": "project_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-k cmd-g": "git_panel::ToggleFocus",
+    },
+  },
 ]

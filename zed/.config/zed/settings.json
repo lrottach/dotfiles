@@ -15,7 +15,7 @@
   "features": {
     "edit_prediction_provider": "copilot",
   },
-  "restore_on_startup": "last_workspace",
+  "restore_on_startup": "none",
   "scrollbar": {
     "show": "never",
   },
@@ -25,8 +25,8 @@
   "agent": {
     "dock": "left",
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4-thinking",
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5",
     },
   },
   "git_panel": {
@@ -44,7 +44,7 @@
   },
   "hide_mouse": "on_typing",
   "terminal": {
-    "dock": "right",
+    "dock": "bottom",
     "font_family": "JetBrainsMono Nerd Font",
     "font_size": 13,
   },
@@ -59,6 +59,6 @@
   "theme": {
     "mode": "system",
     "light": "Dracula Pro (Alucard)",
-    "dark": "Dracula Pro",
+    "dark": "Dracula Pro (Van Helsing)",
   },
 }
