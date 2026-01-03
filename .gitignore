@@ -1,2 +1,9 @@
+## Zed Editor
 zed/.config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
 zed/prompts/*
+
+## Fish Shell
+fishd.*
+fish_history
+fish_variables
+config.local.fish

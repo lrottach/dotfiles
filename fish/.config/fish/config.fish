@@ -17,3 +17,5 @@ if status is-interactive
     # Show system info
     fastfetch
 end
+
+fish_add_path ~/.local/bin

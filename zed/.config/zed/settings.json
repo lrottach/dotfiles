@@ -6,6 +6,7 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
+
 {
   "agent_servers": {
     "claude": {
@@ -14,6 +15,11 @@
   },
   "features": {
     "edit_prediction_provider": "copilot",
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false,
   },
   "restore_on_startup": "none",
   "scrollbar": {
@@ -42,6 +48,10 @@
   "tab_bar": {
     "show": false,
   },
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
   "hide_mouse": "on_typing",
   "terminal": {
     "dock": "bottom",
@@ -51,11 +61,17 @@
   "relative_line_numbers": "enabled",
   "vim_mode": true,
   "ui_font_size": 14,
-  "buffer_font_size": 13,
   "ui_font_family": "MonoLisa",
   "ui_font_fallbacks": ["JetBrainsMono Nerd Font"],
   "buffer_font_family": "MonoLisa",
   "buffer_font_fallbacks": ["JetBrainsMono Nerd Font"],
+  "buffer_font_size": 13,
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true,
+    "zero": true,
+    "ss02": true,
+  },
   "theme": {
     "mode": "system",
     "light": "Dracula Pro (Alucard)",
