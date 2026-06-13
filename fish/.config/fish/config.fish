@@ -8,8 +8,9 @@ if status is-interactive
     # Ghostty follows the OS on its own via `theme = dark:...,light:...`.
     #
     # macOS reports appearance via the global `AppleInterfaceStyle` default:
-    # "Dark" in dark mode, ABSENT in light mode. We re-check once per prompt
-    # (~10ms) and only re-apply the theme when it actually changes.
+    # "Dark" in dark mode, ABSENT in light mode. To keep the ~10ms `defaults`
+    # call off the hot path, we re-check at most once every
+    # $__appearance_poll_interval seconds and only re-apply when it changes.
 
     function __appearance_mode --description 'Echo current macOS appearance (dark|light)'
         if defaults read -g AppleInterfaceStyle &>/dev/null
@@ -31,7 +32,18 @@ if status is-interactive
         set -g __appearance_current "$argv[1]"
     end
 
-    function __appearance_sync --on-event fish_prompt --description 'Re-apply theme when macOS appearance changes'
+    # Seconds between appearance polls. Override before this file loads to taste.
+    set -q __appearance_poll_interval
+    or set -g __appearance_poll_interval 10
+
+    function __appearance_sync --on-event fish_prompt --description 'Re-apply theme when macOS appearance changes (throttled)'
+        set -l now (date +%s)
+        if set -q __appearance_last_poll
+            and test (math "$now - $__appearance_last_poll") -lt $__appearance_poll_interval
+            return
+        end
+        set -g __appearance_last_poll $now
+
         set -l mode (__appearance_mode)
         test "$mode" = "$__appearance_current"
         and return
