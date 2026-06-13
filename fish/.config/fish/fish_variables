@@ -1,4 +1,4 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/Applications/Sublime\x20Text\x2eapp/Contents/SharedSupport/bin\x1e/opt/homebrew/opt/openjdk/bin\x1e/Applications/Ghostty\x2eapp/Contents/MacOS
+SETUVAR fish_user_paths:/Users/lrottach/\x2elocal/bin\x1e/Applications/Sublime\x20Text\x2eapp/Contents/SharedSupport/bin\x1e/opt/homebrew/opt/openjdk/bin\x1e/Applications/Ghostty\x2eapp/Contents/MacOS
